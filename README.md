@@ -11,3 +11,9 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+Dependencies:
+
+Solidity-coverage:
+"npx hardhat coverage" - Looks in contract folder and compares tests with contract to see if there is any untested functions/ variables.
+
